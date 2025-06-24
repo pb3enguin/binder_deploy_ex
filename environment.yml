@@ -1,6 +1,7 @@
 name: torch
 channels:
   # - defaults
+  - pytorch
   - conda-forge
 dependencies:
   - python=3.11
