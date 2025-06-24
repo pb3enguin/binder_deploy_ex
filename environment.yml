@@ -1,0 +1,7 @@
+name: torch
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+prefix: /opt/anaconda3/envs/torch
