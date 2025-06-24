@@ -1,11 +1,13 @@
 name: torch
 channels:
-  - defaults
+  # - defaults
+  - conda-forge
 dependencies:
   - python=3.11
   - ipykernel
   - pillow
   - numpy
-  - pytorch
-  - torchvision
+  - pytorch=2.5.1
+  # - torchvision
+  - cpuonly
 prefix: /opt/anaconda3/envs/torch
