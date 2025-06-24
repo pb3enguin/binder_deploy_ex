@@ -4,5 +4,8 @@ channels:
 dependencies:
   - python=3.11
   - ipykernel
-  - pillow
+  - pillow=11.2.1
+  - numpy=2.2.6
+  - torch=2.7.0
+  - torchvision=0.22.0
 prefix: /opt/anaconda3/envs/torch
