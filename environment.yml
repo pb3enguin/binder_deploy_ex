@@ -6,6 +6,6 @@ dependencies:
   - ipykernel
   - pillow
   - numpy
-  - torch
+  - pytorch
   - torchvision
 prefix: /opt/anaconda3/envs/torch
